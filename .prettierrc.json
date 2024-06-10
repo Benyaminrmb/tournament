@@ -1,0 +1,18 @@
+{
+    "plugins": ["@shufo/prettier-plugin-blade"],
+    "overrides": [
+        {
+            "files": ["*.blade.php"],
+            "options": {
+                "parser": "blade",
+                "trailingComma": "es5",
+                "tabWidth": 4,
+                "semi": false,
+                "bracketSpacing": false,
+                "bracketSameLine": true,
+                "arrowParens": "always",
+                "singleQuote": true
+            }
+        }
+    ]
+}
