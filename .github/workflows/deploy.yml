@@ -17,6 +17,6 @@ jobs:
         with:
           server: benyaminrmb.ir
           username: gmodern3
-          password: ${{ secrets.FTP_PASSWORD }}
+          password: ${{ github.FTP_PASSWORD }}
           server-dir: /t.benyaminrmb.ir/tournament
           timeout: 1200000
