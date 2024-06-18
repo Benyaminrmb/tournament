@@ -16,7 +16,7 @@ jobs:
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
           server: benyaminrmb.ir
-          username: t.benyaminrmb.ir
+          username: gmodern3
           password: ${{ secrets.FTP_PASSWORD }}
           server-dir: /t.benyaminrmb.ir/tournament
           timeout: 1200000
